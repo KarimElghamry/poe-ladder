@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ba53f580ca571f92e2e5b0985fd2312",
+    "revision": "94d2004e3a4fc0f67a7038bb025a16f6",
     "url": "/poe_ladder/index.html"
   },
   {
