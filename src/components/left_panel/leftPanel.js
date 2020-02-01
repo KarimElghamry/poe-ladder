@@ -2,7 +2,13 @@ import React from 'react';
 import './leftPanel.css';
 
 export class LeftPanel extends React.Component {
-  menuItems = ['Standard', 'Hardcore', 'SSF Standard'];
+  menuItems = [
+    'Standard',
+    'Hardcore',
+    'SSF Standard',
+    'Metamorph',
+    'Metamorph',
+  ];
 
   render () {
     return (
