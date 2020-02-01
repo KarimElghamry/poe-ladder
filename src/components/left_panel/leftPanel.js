@@ -2,25 +2,32 @@ import React from 'react';
 import './leftPanel.css';
 
 export class LeftPanel extends React.Component {
-  menuItems = [
-    'Standard',
-    'Hardcore',
-    'SSF Standard',
-    'Metamorph',
-    'Metamorph',
-  ];
+  menuItems = ['Standard', 'Hardcore', 'SSF Standard', 'Metamorph'];
 
-  render () {
+  render() {
     return (
       <div className="leftPanel">
-        {this.menuItems.map (item => <MenuButton name={item} />)}
+        {this.menuItems.map(item => (
+          <MenuButton
+            key={item}
+            name={item}
+            handleMenuClick={this.props.handleMenuClick}
+          />
+        ))}
       </div>
     );
   }
 }
 
 class MenuButton extends React.Component {
-  render () {
-    return <button className="menuButton">{this.props.name}</button>;
+  render() {
+    return (
+      <button
+        className="menuButton"
+        onClick={() => this.props.handleMenuClick(this.props.name)}
+      >
+        {this.props.name}
+      </button>
+    );
   }
 }

@@ -1,5 +1,7 @@
 .rightPanel {
   width: 80%;
   height: 100%;
-  background-color: gray;
+  background-color: black;
+  color: white;
+  overflow: scroll;
 }

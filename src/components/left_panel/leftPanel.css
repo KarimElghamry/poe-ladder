@@ -10,11 +10,10 @@
   width: 20%;
   height: 100%;
   background-color: white;
-  border-right: 5px solid white;
 }
 
 .menuButton {
-  border: 0.5px solid white;
+  border: 0px;
   margin: auto;
   padding-left: 15%;
   width: 100%;
