@@ -10,10 +10,15 @@ export class LeftPanel extends React.Component {
     this.setState({menuItems: menuItems});
   };
 
+  updatePressedButton = name => {
+    this.setState({pressed: name});
+  };
+
   constructor(props) {
     super(props);
     this.state = {
       menuItems: [],
+      pressed: 'Standard',
     };
     this.getMainLeagues();
   }
@@ -26,6 +31,8 @@ export class LeftPanel extends React.Component {
             key={item}
             name={item}
             handleMenuClick={this.props.handleMenuClick}
+            pressed={this.state.pressed}
+            updatePressedButton={this.updatePressedButton}
           />
         ))}
       </div>
@@ -38,7 +45,15 @@ class MenuButton extends React.Component {
     return (
       <button
         className="menuButton"
-        onClick={() => this.props.handleMenuClick(this.props.name)}
+        style={
+          this.props.pressed === this.props.name
+            ? {'padding-left': '7vw'}
+            : null
+        }
+        onClick={() => {
+          this.props.handleMenuClick(this.props.name);
+          this.props.updatePressedButton(this.props.name);
+        }}
       >
         {this.props.name}
       </button>
