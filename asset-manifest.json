@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/poe-ladder/static/css/main.1ec81367.chunk.css",
-    "main.js": "/poe-ladder/static/js/main.3a12b16c.chunk.js",
-    "main.js.map": "/poe-ladder/static/js/main.3a12b16c.chunk.js.map",
+    "main.js": "/poe-ladder/static/js/main.ff95d0ab.chunk.js",
+    "main.js.map": "/poe-ladder/static/js/main.ff95d0ab.chunk.js.map",
     "runtime-main.js": "/poe-ladder/static/js/runtime-main.90cb16d4.js",
     "runtime-main.js.map": "/poe-ladder/static/js/runtime-main.90cb16d4.js.map",
     "static/js/2.bcd49544.chunk.js": "/poe-ladder/static/js/2.bcd49544.chunk.js",
     "static/js/2.bcd49544.chunk.js.map": "/poe-ladder/static/js/2.bcd49544.chunk.js.map",
     "index.html": "/poe-ladder/index.html",
-    "precache-manifest.edf64661113ecb61091809ff983ad9df.js": "/poe-ladder/precache-manifest.edf64661113ecb61091809ff983ad9df.js",
+    "precache-manifest.52c5e6769e3cca95bd73dab974eb392b.js": "/poe-ladder/precache-manifest.52c5e6769e3cca95bd73dab974eb392b.js",
     "service-worker.js": "/poe-ladder/service-worker.js",
     "static/css/main.1ec81367.chunk.css.map": "/poe-ladder/static/css/main.1ec81367.chunk.css.map",
     "static/js/2.bcd49544.chunk.js.LICENSE.txt": "/poe-ladder/static/js/2.bcd49544.chunk.js.LICENSE.txt",
@@ -44,6 +44,6 @@
     "static/js/runtime-main.90cb16d4.js",
     "static/js/2.bcd49544.chunk.js",
     "static/css/main.1ec81367.chunk.css",
-    "static/js/main.3a12b16c.chunk.js"
+    "static/js/main.ff95d0ab.chunk.js"
   ]
 }

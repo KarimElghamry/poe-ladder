@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fef322e4e1bacbc40918643f3c8dbba4",
+    "revision": "bba7b8991794926ab9bfce94f8f9b138",
     "url": "/poe-ladder/index.html"
   },
   {
-    "revision": "2438d68bcf86e9066d77",
+    "revision": "dfa12975d89617e263c7",
     "url": "/poe-ladder/static/css/main.1ec81367.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/poe-ladder/static/js/2.bcd49544.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2438d68bcf86e9066d77",
-    "url": "/poe-ladder/static/js/main.3a12b16c.chunk.js"
+    "revision": "dfa12975d89617e263c7",
+    "url": "/poe-ladder/static/js/main.ff95d0ab.chunk.js"
   },
   {
     "revision": "5b6659f5e5ce96a2484e",
