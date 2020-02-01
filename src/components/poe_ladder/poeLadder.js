@@ -24,6 +24,10 @@ export class PoeLadder extends React.Component {
     };
   }
 
+  componentDidMount() {
+    document.body.style.backgroundColor = '#0c0c0c';
+  }
+
   render() {
     return (
       <div className="globalLayout">

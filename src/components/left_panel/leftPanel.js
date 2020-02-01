@@ -1,13 +1,27 @@
 import React from 'react';
 import './leftPanel.css';
+import {default as axios} from 'axios';
 
 export class LeftPanel extends React.Component {
-  menuItems = ['Standard', 'Hardcore', 'SSF Standard', 'Metamorph'];
+  getMainLeagues = async () => {
+    const url = 'http://api.pathofexile.com/leagues?type=main&compact=1 ';
+    const response = await axios.get(url);
+    const menuItems = response.data.map(league => league.id);
+    this.setState({menuItems: menuItems});
+  };
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      menuItems: [],
+    };
+    this.getMainLeagues();
+  }
 
   render() {
     return (
       <div className="leftPanel">
-        {this.menuItems.map(item => (
+        {this.state.menuItems.map(item => (
           <MenuButton
             key={item}
             name={item}
